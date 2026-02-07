@@ -1,0 +1,3 @@
+[submodule ".gsworkspace"]
+	path = .gsworkspace
+	url = https://github.com/rms80/gsworkspace.git

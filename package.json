@@ -3,8 +3,9 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
+    "dev": "node scripts/build-demo.js && astro dev",
+    "build": "node scripts/build-demo.js && astro build",
+    "build:demo": "node scripts/build-demo.js",
     "preview": "astro preview",
     "astro": "astro"
   },
