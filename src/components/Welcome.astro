@@ -33,8 +33,7 @@
 	<div class="hero-glow"></div>
 	<div class="hero-content">
 		<h1>
-			An AI canvas in your browser<br />
-			<span class="gradient-text">created by AI</span>
+			An AI Canvas in your browser<br />
 		</h1>
 		<p class="hero-sub">
 			Organize and Edit text, images, and videos on a freeform canvas.<br/> 
@@ -72,63 +71,48 @@
 <!-- Features -->
 <section id="features" class="section">
 	<div class="container">
-		<h2 class="section-title">Everything on one canvas</h2>
-		<p class="section-sub">Drop anything onto a boundless workspace and arrange it however you want.</p>
-		<div class="features-grid">
-			<div class="feature-card">
-				<div class="feature-icon">
-					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-						<polyline points="4 7 4 4 20 4 20 7"/><line x1="9" y1="20" x2="15" y2="20"/><line x1="12" y1="4" x2="12" y2="20"/>
-					</svg>
-				</div>
-				<h3>Text Blocks</h3>
-				<p>Editable text blocks with auto-sizing. Double-click to edit, arrange freely on the canvas.</p>
+		<h2 class="section-title">What does it do?</h2>
+		<div class="features-box">
+			<div class="feature-row">
+				<span class="feature-name">Infinite Canvas</span>
+				<span class="feature-desc">Pan, zoom, and arrange without limits. Marquee selection, multi-select, and free-form positioning.</span>
+			</div>			
+			<div class="feature-row">
+				<span class="feature-name">Text Blocks</span>
+				<span class="feature-desc">Editable text blocks with auto-sizing. Double-click to edit.</span>
 			</div>
-			<div class="feature-card">
-				<div class="feature-icon">
-					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-						<rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/>
-					</svg>
-				</div>
-				<h3>Images</h3>
-				<p>Drag-and-drop or paste from clipboard. Non-destructive server-side crop editing.</p>
+			<div class="feature-row">
+				<span class="feature-name">Images</span>
+				<span class="feature-desc">Import, Drag/Drop, or Paste from clipboard. Crop to fit (even GIFs!)</span>
 			</div>
-			<div class="feature-card">
-				<div class="feature-icon">
-					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-						<polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
-					</svg>
-				</div>
-				<h3>Videos</h3>
-				<p>Drop video files with full playback controls. Trim, crop, change speed, and remove audio.</p>
+			<div class="feature-row">
+				<span class="feature-name">Videos</span>
+				<span class="feature-desc">Import or Drag/Drop video files with full playback controls. Crop, Trim, change speed, and remove audio.</span>
 			</div>
-			<div class="feature-card">
-				<div class="feature-icon">
-					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-						<polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
-					</svg>
-				</div>
-				<h3>HTML Pages</h3>
-				<p>AI-generated HTML rendered in sandboxed iframes. Full web pages, live on your canvas.</p>
+			<div class="feature-row">
+				<span class="feature-name">Non-Destructive</span>
+				<span class="feature-desc">Image Cropping & Video Edits are non-destructive and can be modified or removed. Server stores original and edited versions.</span>
+			</div>			
+			<div class="feature-row">
+				<span class="feature-name">AI Prompting</span>
+				<span class="feature-desc">Configurable prompt blocks that generate new Text, Image, and HTML content inline. Select canvas items as context.</span>
+			</div>			
+			<div class="feature-row">
+				<span class="feature-name">HTML Pages</span>
+				<span class="feature-desc">AI-generated HTML rendered in sandboxed iframes, generated from selected canvas items & layout. Full web pages, live on your canvas.</span>
 			</div>
-			<div class="feature-card">
-				<div class="feature-icon">
-					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-						<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
-					</svg>
-				</div>
-				<h3>AI Prompts</h3>
-				<p>Configurable prompt blocks that generate content inline. Select canvas items as context for your prompts.</p>
+			<div class="feature-row">
+				<span class="feature-name">HTML Publishing</span>
+				<span class="feature-desc">Export the inline HTML pages as HTML or Markdown files for publishing. Images are included in the export, referenced with local paths.</span>
+			</div>			
+			<div class="feature-row">
+				<span class="feature-name">Multi-Scene</span>
+				<span class="feature-desc">Multiple Scenes managed with a Tabs UI. Pinned Tabs for quick access. Import & Export Scenes for backup or transfer.</span>
 			</div>
-			<div class="feature-card">
-				<div class="feature-icon">
-					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-						<path d="M5 12h14"/><path d="M12 5v14"/><circle cx="12" cy="12" r="10"/>
-					</svg>
-				</div>
-				<h3>Infinite Canvas</h3>
-				<p>Pan, zoom, and arrange without limits. Marquee selection, multi-select, and free-form positioning.</p>
-			</div>
+			<div class="feature-row">
+				<span class="feature-name">Workspaces</span>
+				<span class="feature-desc">Scenes are grouped into Workspaces. Workspaces can be hidden, for your secret projects.</span>
+			</div>			
 		</div>
 	</div>
 </section>
@@ -137,19 +121,19 @@
 <section id="ai" class="section section-alt">
 	<div class="container">
 		<h2 class="section-title">AI at your fingertips</h2>
-		<p class="section-sub">Generate text, images, and entire web pages directly on the canvas using leading AI models.</p>
+		<p class="section-sub">Generate text, images, and web content directly on the canvas using leading AI models, using a Bring Your Own Key (BYOK) approach.</p>
 		<div class="ai-grid">
 			<div class="ai-card">
 				<div class="ai-model-label">Text Generation</div>
-				<p>Create prompt blocks and generate text with <strong>Claude</strong> (Haiku, Sonnet, Opus) or <strong>Google Gemini</strong> (Flash, Pro). Select items on the canvas as context.</p>
+				<p>Create prompt blocks and generate text with <strong>Claude</strong> (Haiku, Sonnet, Opus) or <strong>Google Gemini</strong> (Flash, Pro). Select Text & Image items on the Canvas as context.</p>
 			</div>
 			<div class="ai-card">
 				<div class="ai-model-label">Image Generation</div>
-				<p>Generate images using <strong>Gemini Imagen</strong> models. Describe what you need and the image appears right on your canvas.</p>
+				<p>Generate and Edit images using <strong>Gemini Imagen</strong> models. Describe what you need and the image appears right on your Canvas.</p>
 			</div>
 			<div class="ai-card">
 				<div class="ai-model-label">HTML Generation</div>
-				<p>Generate full, interactive HTML pages from selected canvas content. The AI understands the <strong>spatial layout</strong> of your workspace.</p>
+				<p>Generate and Edit full HTML pages from selected Canvas content. The AI understands the <strong>spatial layout</strong> of your workspace.</p>
 			</div>
 		</div>
 	</div>
@@ -168,7 +152,7 @@
 					</svg>
 				</div>
 				<h3>Online (S3)</h3>
-				<p>Cloud storage with AWS S3 via the backend server. Full feature set with remote access.</p>
+				<p>Cloud storage with AWS S3 via the backend server. Full feature set with remote access. Run server locally or on the cloud (with basic password protection).</p>
 			</div>
 			<div class="deploy-card">
 				<div class="deploy-icon">
@@ -177,7 +161,7 @@
 					</svg>
 				</div>
 				<h3>Local Disk</h3>
-				<p>Store scenes on your local filesystem via the local server. Your data stays on your machine.</p>
+				<p>Store scenes on your local filesystem via the local server. Your data stays on your machine. No cloud services required.</p>
 			</div>
 			<div class="deploy-card">
 				<div class="deploy-icon">
@@ -186,7 +170,7 @@
 					</svg>
 				</div>
 				<h3>Offline (Browser)</h3>
-				<p>Fully client-side using IndexedDB. No backend needed. Configure your own API keys for AI features.</p>
+				<p>Fully client-side using IndexedDB. No backend needed. Configure your own API keys for AI features. <strong>No video support</strong>.</p>
 			</div>
 		</div>
 	</div>
@@ -217,7 +201,7 @@
 <section class="section cta-section">
 	<div class="container cta-content">
 		<h2>Ready to try it?</h2>
-		<p>gsworkspace is open source and free to use. Clone the repo and start building.</p>
+		<p>gsworkspace is <a href="https://unlicense.org/">Open Source</a> and free to use. Clone the repo and start building.</p>
 		<div class="cta-actions">
 			<a href="https://github.com/rms80/gsworkspace" class="btn btn-primary btn-lg" target="_blank" rel="noopener">
 				<svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
@@ -234,7 +218,7 @@
 <footer>
 	<div class="container footer-inner">
 		<p>gsworkspace &mdash; 100% coded by <a href="https://claude.ai" target="_blank" rel="noopener">Claude Code</a>, guided by a human architect.</p>
-		<p class="footer-license">Released under The Unlicense. Free for any use.</p>
+		<p class="footer-license">Released under <a href="https://unlicense.org/">The Unlicense</a>. Free for any use.</p>
 	</div>
 </footer>
 
@@ -336,7 +320,7 @@
 	}
 
 	.gradient-text {
-		font-size: 0.65em;
+		font-size: 0.45em;
 		font-style: italic;
 		padding-right: 0.15em;
 		background: linear-gradient(135deg, var(--color-accent-light) 0%, var(--color-highlight) 100%);
@@ -451,48 +435,50 @@
 		margin: 0 auto 56px;
 	}
 
-	/* Features grid */
-	.features-grid {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 20px;
-	}
-
-	.feature-card {
-		padding: 28px;
+	/* Features box */
+	.features-box {
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 24px 32px;
 		background: var(--color-surface);
 		border: 1px solid var(--color-border);
-		border-radius: 14px;
-		transition: border-color 0.2s, transform 0.2s;
+		border-radius: 12px;
 	}
 
-	.feature-card:hover {
-		border-color: var(--color-accent);
-		transform: translateY(-2px);
-	}
-
-	.feature-icon {
-		width: 44px;
-		height: 44px;
+	.feature-row {
 		display: flex;
-		align-items: center;
-		justify-content: center;
-		background: var(--color-accent-glow);
-		border-radius: 10px;
-		margin-bottom: 16px;
-		color: var(--color-accent-light);
+		align-items: baseline;
+		gap: 24px;
+		padding: 10px 0;
 	}
 
-	.feature-card h3 {
-		font-size: 16px;
+	.feature-name {
+		font-size: 15px;
 		font-weight: 600;
-		margin-bottom: 8px;
+		color: var(--color-accent-light);
+		min-width: 140px;
+		flex-shrink: 0;
 	}
 
-	.feature-card p {
-		font-size: 14px;
+	.feature-desc {
+		font-size: 15px;
 		color: var(--color-text-muted);
-		line-height: 1.6;
+		line-height: 1.5;
+	}
+
+	@media (max-width: 640px) {
+		.features-box {
+			padding: 20px 24px;
+		}
+
+		.feature-row {
+			flex-direction: column;
+			gap: 4px;
+		}
+
+		.feature-name {
+			min-width: unset;
+		}
 	}
 
 	/* AI grid */
@@ -650,7 +636,6 @@
 
 	/* Responsive */
 	@media (max-width: 768px) {
-		.features-grid,
 		.ai-grid,
 		.deploy-grid {
 			grid-template-columns: 1fr;
@@ -670,12 +655,6 @@
 
 		.section {
 			padding: 64px 20px;
-		}
-	}
-
-	@media (min-width: 769px) and (max-width: 1024px) {
-		.features-grid {
-			grid-template-columns: repeat(2, 1fr);
 		}
 	}
 </style>
