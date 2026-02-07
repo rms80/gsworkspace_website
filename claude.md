@@ -1,5 +1,11 @@
 # Claude Code Notes
 
+
+# Git management
+
+- Do not push to git unless I tell you to
+
+
 ## Known Workarounds
 
 ### axobject-query ESM compatibility issue (2026-02-07)
