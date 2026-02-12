@@ -1,6 +1,10 @@
 # Claude Code Notes
 
 
+# Dev server
+
+- Always use port 4555 (configured in `astro.config.mjs`)
+
 # Git management
 
 - Do not push to git unless I tell you to
