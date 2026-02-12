@@ -60,9 +60,18 @@
 			<h2 class="hero-box-title">Designed by a Human, Coded by a Robot</h2>
 			<p>
 				This project has been 100% coded by <a href="https://claude.ai" target="_blank" rel="noopener">Claude Code</a>,
-				under the careful guidance<br/> of <a href="https://www.rms80.com">rms80</a>, 
+				under the careful guidance<br/> of <a href="https://www.rms80.com">rms80</a>,
 				an independent software developer.
 			</p>
+		</div>
+		<div class="video-embed">
+			<iframe
+				src="https://www.youtube.com/embed/gJo4UDf73mk"
+				title="YouTube video"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen
+			></iframe>
 		</div>
 	</div>
 </header>
@@ -359,6 +368,22 @@
 		font-weight: 600;
 		color: var(--color-text);
 		margin-bottom: 6px;
+	}
+
+	.video-embed {
+		margin-top: 36px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		aspect-ratio: 16 / 9;
+		border-radius: 12px;
+		overflow: hidden;
+	}
+
+	.video-embed iframe {
+		width: 100%;
+		height: 100%;
+		border: none;
 	}
 
 	.hero-box p {
